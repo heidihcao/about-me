@@ -1,7 +1,7 @@
 # About Me
-> This is for Lab-2
-> It is a guessing game with exactly five questions prompted to the user
-> **I utilized Font Awesome!**
+> This is for Lab-2 <br>
+> It is a guessing game with exactly five questions prompted to the user<br>
+> **I utilized Font Awesome!**<br>
 
 ## Biography
 Heidi Cao is an aspiring software engineer with a background in economics and public policy.
