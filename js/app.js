@@ -50,8 +50,8 @@ if(answer5 === 'yes' || answer5 === 'y'){
   alert(username + "You bet! You just finished the guessing game, and you nailed it!");
   /*console.log('You are right - I like this class!');*/
 } else{
-  alert(username + "That was the last question, but you didn't get that right. Can you try again?");
+  alert(username + ", that was the last question. You didn't get it right - can you try again?");
   /*console.log ('Oops. Can you try again?');*/
 }
 
-alert (username+"Good job!");
+alert (username+", good job!");
