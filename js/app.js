@@ -47,7 +47,7 @@ if(answer4 === 'yes' || answer4 === 'y'){
 
 let answer5=prompt("Am I enjoying Code Fellows 201?").toLowerCase();
 if(answer5 === 'yes' || answer5 === 'y'){
-  alert(username + "You bet! You just finished the guessing game, and you nailed it!");
+  alert("You bet! " +username +", you just finished the guessing game, and you nailed it!");
   /*console.log('You are right - I like this class!');*/
 } else{
   alert(username + " , that was the last question. You didn't get it right - can you try again?");
