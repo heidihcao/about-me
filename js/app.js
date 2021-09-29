@@ -53,3 +53,5 @@ if(answer5 === 'yes' || answer5 === 'y'){
   alert(username + "That was the last question, but you didn't get that right. Can you try again?");
   /*console.log ('Oops. Can you try again?');*/
 }
+
+alert (username+"Good job!");
