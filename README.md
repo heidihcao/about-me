@@ -18,7 +18,7 @@ With a master's in economic development and public administration, she has worke
 
 ## Author: Heidi Cao
 ## Links and Resources
-> [Rended Github] (https://heidihcao.github.io/about-me/)
+> [Rended Github] (https://heidihcao.github.io/about-me/)<br>
 > [Font Awesome] (https://fontawesome.com/v5.15/how-to-use/on-the-web/referencing-icons/basic-use)
 
 ## Reflections and Comments
