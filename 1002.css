@@ -1,0 +1,45 @@
+.picture{
+  width: 200px;
+  border: 10px solid red;
+  padding: 30px;
+  /*actual wideth is 280*/
+}
+
+  /*but we can use the following to avoid math*/
+  *{
+  box-sizing: border-box;
+}
+
+ /*div is BLOCK level element , take full width of PARENT element (maybe a section tag in html), and will force the element below to the next line.
+ span level element is INLINE element, don't take up full line, and don't force element below.*/
+div, span{
+  border: 1px solid black;
+  margin: 25px;
+  padding: 25px;
+  display: inline-block;
+  float: right;
+}
+ /*DISPLAY can override*/
+  /*float -- take it out of the flow of the doc*/
+
+div:nth-child(3){
+  background-color: green;
+}
+div:nth-of-type(3){
+  background-color: lightcoral;
+}
+
+
+
+section{
+  clear: both;
+}
+ /*CLEAR can clear float elements*/
+
+h1{
+  margin:auto;
+  width: min-content;
+}
+
+/*h1 is a block element, automatically takes up the width of the page; margin: auto splits the remaining space and automatically evens it out; so combining h1 and margin won't work --> therefore necessary to declare width in the h1 code.*/
+
