@@ -1,22 +1,25 @@
 'use strict';
 // console.log("HI");
 
+
 let username=prompt("What is your name?");
 console.log(username);
 alert ("Hi, "+username+", WELCOME🙌🏼!");
 let score =0;
 
-let answer1=prompt("Do I like country music?").toLowerCase();
-if(answer1 === 'no' || answer1 === 'n'){
-  /*console.log("Correct! I don't like country music.");*/
-  alert("Correct! I don't like country music 🎸");
-  score = score+1;
-  console.log(score);
-} else{
-  alert("Incorrect. Hint: I don't like country music 🎸");
-  /*console.log("Try again :c Hint: I don't like country music.");*/
+function QuestionOne() {
+  let answer1=prompt("Do I like country music?").toLowerCase();
+  if(answer1 === 'no' || answer1 === 'n'){
+    /*console.log("Correct! I don't like country music.");*/
+    alert("Correct! I don't like country music 🎸");
+    score = score+1;
+    console.log(score);
+  } else{
+    alert("Incorrect. Hint: I don't like country music 🎸");
+    /*console.log("Try again :c Hint: I don't like country music.");*/
+  }
 }
-
+QuestionOne() ;
 
 let answer2=prompt("Am I on the west coast?").toLowerCase();
 if(answer2 === 'yes' || answer2 === 'y'){
