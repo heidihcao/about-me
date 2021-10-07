@@ -98,7 +98,7 @@ function QuestionSix() {
   }
   alert("My favorite number is 7.");
 }
-QuestionSix() ;
+QuestionSix();
 
 let favFlowers = ['sunflower','wisteria','hydrangea','rose','hyacinthus','lavendar'];
 let attempts=6;
