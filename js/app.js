@@ -21,17 +21,19 @@ function QuestionOne() {
 }
 QuestionOne() ;
 
-let answer2=prompt("Am I on the west coast?").toLowerCase();
-if(answer2 === 'yes' || answer2 === 'y'){
+function QuestionTwo() {
+  let answer2=prompt("Am I on the west coast?").toLowerCase();
+  if(answer2 === 'yes' || answer2 === 'y'){
   alert('Correct! West coast best coast 🌊');
   score = score+1;
   console.log(score);
   /*console.log("Correct! I'm on the west coast!");*/
-} else{
+  } else{
   alert('That was incorrect 🤭');
   /*console.log ("Try again :c Hint: I'm on the west coast!");*/
+  } 
 }
-
+QuestionTwo() ;
 
 let answer3=prompt("Is my last name pronounced 'COW'?").toLowerCase();
 if(answer3 === 'yes' || answer3 === 'y'){
