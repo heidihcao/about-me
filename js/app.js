@@ -63,37 +63,42 @@ function QuestionFour() {
 }
 QuestionFour() ;
 
-let answer5=prompt("Am I enjoying Code Fellows 201?").toLowerCase();
-if(answer5 === 'yes' || answer5 === 'y'){
-  alert("You bet! " +username +", and you nailed it!🔥");
-  score = score+1;
-  console.log(score);
-  /*console.log('You are right - I like this class!');*/
-} else{
-  alert(username + ", you didn't get that right 🤭");
-  /*console.log ('Oops. Can you try again?');*/
+function QuestionFive() {
+  let answer5=prompt("Am I enjoying Code Fellows 201?").toLowerCase();
+  if(answer5 === 'yes' || answer5 === 'y'){
+    alert("You bet! " +username +", and you nailed it!🔥");
+    score = score+1;
+    console.log(score);
+    /*console.log('You are right - I like this class!');*/
+  } else{
+    alert(username + ", you didn't get that right 🤭");
+    /*console.log ('Oops. Can you try again?');*/
+  }
 }
+QuestionFive() ;
 
 let FavNumber=7;
 let guesses=4;
 
-for (let i=0; i<guesses; i++){
-  let answer6=prompt("What is my favorite number between 1-100? You have FOUR chances to get this right! Please respond in numerial numbers and not words.");
-  if (answer6!==FavNumber && answer6<FavNumber){
-    alert("Sorry! That number was TOO LOW 😌");
-    answer6;
-  } else if (answer6!==FavNumber && answer6>FavNumber){
-    alert("Sorry! That number was TOO HIGH 🥵");
-    answer6;
-  } else{
-    alert("Yes! you nailed it! 💯");
-    score = score+1;
-    console.log(score);
-    {break};
+function QuestionSix() {
+  for (let i=0; i<guesses; i++){
+    let answer6=prompt("What is my favorite number between 1-100? You have FOUR chances to get this right! Please respond in numerial numbers and not words.");
+    if (answer6!==FavNumber && answer6<FavNumber){
+      alert("Sorry! That number was TOO LOW 😌");
+      answer6;
+    } else if (answer6!==FavNumber && answer6>FavNumber){
+      alert("Sorry! That number was TOO HIGH 🥵");
+      answer6;
+    } else{
+      alert("Yes! you nailed it! 💯");
+      score = score+1;
+      console.log(score);
+      {break};
+    }
   }
+  alert("My favorite number is 7.");
 }
-alert("My favorite number is 7.");
-
+QuestionSix() ;
 
 let favFlowers = ['sunflower','wisteria','hydrangea','rose','hyacinthus','lavendar'];
 let attempts=6;
