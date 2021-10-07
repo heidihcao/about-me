@@ -49,17 +49,19 @@ function QuestionThree() {
 }
 QuestionThree() ;
 
-let answer4=prompt("Do I enjoy spicy food?").toLowerCase();
-if(answer4 === 'yes' || answer4 === 'y'){
-  alert('Ya! 🔥');
-  score = score+1;
-  console.log(score);
-  /*console.log('Yes! I love spicy food.');*/
-} else{
-  alert('That was incorrect 🤭');
-  /*console.log('Hmhmh. Try again! Hint: I like spicy food.');*/
+function QuestionFour() {
+  let answer4=prompt("Do I enjoy spicy food?").toLowerCase();
+  if(answer4 === 'yes' || answer4 === 'y'){
+    alert('Ya! 🔥');
+    score = score+1;
+    console.log(score);
+    /*console.log('Yes! I love spicy food.');*/
+  } else{
+    alert('That was incorrect 🤭');
+    /*console.log('Hmhmh. Try again! Hint: I like spicy food.');*/
+  }
 }
-
+QuestionFour() ;
 
 let answer5=prompt("Am I enjoying Code Fellows 201?").toLowerCase();
 if(answer5 === 'yes' || answer5 === 'y'){
