@@ -104,27 +104,30 @@ let favFlowers = ['sunflower','wisteria','hydrangea','rose','hyacinthus','lavend
 let attempts=6;
 let match = false;
 
+function QuestionSeven() {
 for (let i=0; i<attempts; i++){
-  let answer7=prompt("What's my favorite flower?").toLowerCase();
-  for (let j=0; j<favFlowers.length;j++){
-    if (answer7===favFlowers[j]){
-      match = true; 
-    } 
-  }
+    let answer7=prompt("What's my favorite flower?").toLowerCase();
+    for (let j=0; j<favFlowers.length;j++){
+      if (answer7===favFlowers[j]){
+        match = true; 
+      } 
+    }
 
-  if (!match){
-    //console.log("wrong");
-    alert ("Sorry! That's not my favorite flower 🌸");
-    answer7;
-  } else {
-    //console.log("right");
-    alert("WOW! How did you know my favorite flower. You nailed it! 🌸");
-    score=score+1;
-    console.log(score);
-    {break};
+    if (!match){
+      //console.log("wrong");
+      alert ("Sorry! That's not my favorite flower 🌸");
+      answer7;
+    } else {
+      //console.log("right");
+      alert("WOW! How did you know my favorite flower. You nailed it! 🌸");
+      score=score+1;
+      console.log(score);
+      {break};
+    }
   }
+  alert("Here are all my favorite flowers: 1. sunflower; 2. wisteria; 3. hydrangea; 4. rose; 5. hyacinthus 6. lavendar :)");
 }
-alert("Here are all my favorite flowers: 1. sunflower; 2. wisteria; 3. hydrangea; 4. rose; 5. hyacinthus 6. lavendar :)");
+QuestionSeven();
 
 alert("Great job, "+username+"! Your final score is "+score + " out of 7.");
 
