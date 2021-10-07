@@ -35,17 +35,19 @@ function QuestionTwo() {
 }
 QuestionTwo() ;
 
-let answer3=prompt("Is my last name pronounced 'COW'?").toLowerCase();
-if(answer3 === 'yes' || answer3 === 'y'){
-  alert("Nope! The 'c' is pronounced with a 'ts' sound 😄 ");
-  /*console.log('Nope! My last name is not pronounced that way.');*/
-} else{
-  alert("You are right! The 'c' is pronounced with a 'ts' sound 😄");
-  score = score+1;
-  console.log(score);
-  /*console.log ('Wow! You nailed the pronounciation!');*/
+function QuestionThree() {
+  let answer3=prompt("Is my last name pronounced 'COW'?").toLowerCase();
+  if(answer3 === 'yes' || answer3 === 'y'){
+    alert("Nope! The 'c' is pronounced with a 'ts' sound 😄 ");
+    /*console.log('Nope! My last name is not pronounced that way.');*/
+  } else{
+    alert("You are right! The 'c' is pronounced with a 'ts' sound 😄");
+    score = score+1;
+    console.log(score);
+    /*console.log ('Wow! You nailed the pronounciation!');*/
+  }
 }
-
+QuestionThree() ;
 
 let answer4=prompt("Do I enjoy spicy food?").toLowerCase();
 if(answer4 === 'yes' || answer4 === 'y'){
